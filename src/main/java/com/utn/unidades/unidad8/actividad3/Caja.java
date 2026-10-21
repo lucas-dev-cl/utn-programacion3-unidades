@@ -1,0 +1,13 @@
+package com.utn.unidades.unidad8.actividad3;
+
+public class Caja <T>{
+    private T contenido;
+
+    public void guardar(T contenido) {
+        this.contenido = contenido;
+    }
+
+    public T obtener() {
+        return contenido;
+    }
+}

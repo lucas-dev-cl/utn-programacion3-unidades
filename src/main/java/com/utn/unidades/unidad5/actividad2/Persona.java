@@ -25,6 +25,11 @@ public class Persona {
         this.edad = edad;
     }
 
+    // Método privado pedido en el caso práctico
+    private String Saludar() {
+        return "Hola";
+    }
+
     @Override
     public String toString() {
         return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
